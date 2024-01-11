@@ -1,15 +1,15 @@
-package com.axelspringer.welt.weltuserapi.appStarter;
+package com.welt.userapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.reactive.function.client.WebClient;
 
-@SpringBootApplication(scanBasePackages="com.axelspringer.welt")
-public class WeltuserapiApplication {
+@SpringBootApplication(scanBasePackages="com.welt")
+public class UserApiApplicationStarter {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WeltuserapiApplication.class, args);
+		SpringApplication.run(UserApiApplicationStarter.class, args);
 	}
 
 	@Bean

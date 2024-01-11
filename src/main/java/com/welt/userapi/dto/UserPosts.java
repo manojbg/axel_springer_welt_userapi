@@ -1,4 +1,4 @@
-package com.axelspringer.welt.weltuserapi.dto;
+package com.welt.userapi.dto;
 
 import lombok.Getter;
 import lombok.Setter;
